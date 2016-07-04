@@ -7,7 +7,7 @@ function setCookie(c_name,value,expiredays){
   s += "; path="+ location.pathname;
   if(expiredays){
     s += "; expires=" +exdate+"; ";
-  }else`
+  }else
   s += "; ";
   }
   document.cookie=s;
